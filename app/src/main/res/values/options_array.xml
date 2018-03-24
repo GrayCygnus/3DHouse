@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_array">
+        <item>Cámara</item>
+        <item>Trasladar</item>
+        <item>Rotar</item>
+        <item>Escalar</item>
+        <item>Shear</item>
+        <item>Puerta</item>
+    </string-array>
+</resources>

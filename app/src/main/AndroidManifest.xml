@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="graycygnus.casita3">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@mipmap/logocasita" android:theme="@style/AppTheme"
+        >
+
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="reverseLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" ></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+
+            <Spinner android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true" >
+            </Spinner>
+
+        </activity>
+    </application>
+
+</manifest>
