@@ -1,6 +1,6 @@
 ##------------------Casita 3D---------------##
 
-This project exemplifies basic implementation and usage of OpenGL 2.0 Library for an Android App
+This project exemplifies basic implementation and usage of OpenGL 1.0 Library for an Android App
 
 Includes operations like:
 
